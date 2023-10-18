@@ -3,6 +3,7 @@
     "description": "Laravel WebDAV| Nextcloud Filesystem",
     "type": "library",
     "version": "1.0.1",
+    "license": "MIT",
     "authors": [
         {
             "name": "Roland ALla",
