@@ -2,6 +2,7 @@
     "name": "rolandalla/laravel-nextcloud",
     "description": "Laravel WebDAV| Nextcloud Filesystem",
     "type": "library",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Roland ALla",
