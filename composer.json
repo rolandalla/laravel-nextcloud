@@ -1,0 +1,41 @@
+{
+    "name": "rolandalla/laravel-nextcloud",
+    "description": "Laravel WebDAV Filesystem",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Roland ALla",
+            "email": "info@rolandalla.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0 || ^8.1",
+        "illuminate/filesystem": "^8.67",
+        "league/flysystem-webdav": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5 || ^9.6",
+        "orchestra/testbench": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Roland\\NextCloudAdapter\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Roland\\NextCloudAdapter\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Roland\\NextCloudAdapter\\NextCloudAdapterProvider"
+            ]
+        }
+    }
+}
