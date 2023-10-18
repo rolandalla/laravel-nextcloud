@@ -30,10 +30,6 @@ Create a NextCloud filesystem disk:
 ];
 ```
 
-## Security
-
-If you discover any security related issues, please email jakub.jedlikowski@gmail.com instead of using the issue tracker.
-
 ## Credits
 
 - [Roland Alla][link-author]
