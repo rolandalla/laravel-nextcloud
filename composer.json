@@ -1,5 +1,5 @@
 {
-    "name": "roland/laravel-nextcloud",
+    "name": "rolandalla/laravel-nextcloud",
     "description": "Laravel WebDAV| Nextcloud Filesystem",
     "type": "library",
     "authors": [
