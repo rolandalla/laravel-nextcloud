@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^8.0 || ^8.1",
-        "illuminate/filesystem": "^8.67",
+        "illuminate/filesystem": "^8.67 || ^9.0 || ^9.21 || ^10.0",
         "league/flysystem-webdav": "^3.0"
     },
     "require-dev": {
