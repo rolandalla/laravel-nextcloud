@@ -24,7 +24,7 @@ Create a NextCloud filesystem disk:
             'baseUri' =>  env('NEXT_CLOUD_URL','https://your-web-dat-domain.com'), //replace by yours baseUri
             'userName' => env('NEXT_CLOUD_USERNAME','web-dav-username'),
             'password' => env('NEXT_CLOUD_PASSWORD','web-dav-password'),
-            'pathPrefix' => env('NEXT_CLOUD_PATH_PREFIX','null'), // Default value is null
+            'pathPrefix' => env('NEXT_CLOUD_PATH_PREFIX',false), // Default value is null
     ],
 	...
 ];
