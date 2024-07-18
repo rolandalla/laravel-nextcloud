@@ -12,8 +12,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^8.0 || ^8.1 || ^8.2", 
-        "illuminate/filesystem": "^8.67 || ^9.0 || ^9.21 || ^10.0 || ^11.0",
+        "php": "^8.0",
+        "laravel/framework": "^8.0 || ^9.0 || ^10.0 || ^11.0",
         "league/flysystem-webdav": "^3.0"
     },
     "require-dev": {
